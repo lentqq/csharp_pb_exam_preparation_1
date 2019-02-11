@@ -16,7 +16,7 @@ namespace _04.Cake
             int takePieces = 0;
             string command = Console.ReadLine();
 
-            while (command != "STOP" && takePieces<=allPieces) //(command != "STOP")
+            while (command != "STOP" && takePieces <= allPieces) //(command != "STOP")
             {
                 int cutPieces = int.Parse(command);
                 takePieces += cutPieces;
